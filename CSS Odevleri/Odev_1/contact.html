@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+    <h1>Contact With Us</h1>
+
+    <form action="nowhere" method="get" autocomplete="on">
+        
+        <input size="30" type="text" name="name" placeholder="Name" maxlength="50" autofocus required>
+        <p><input size="30" type="email" name="email" placeholder="Email" maxlength="50" required></p>
+        <p style="color: aliceblue;"><input size="30" type="tel" name="tel" placeholder="000-000-0000" maxlength="12" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required ></p>
+        <p><textarea name="user message" cols="50" rows="15" placeholder="Message"></textarea></p>
+        <input type="radio" name="message type" value="S" id="Suggestion" required>
+        <label for="Suggestion">Suggestion</label><br>
+        <input type="radio" name="message type" value="C" id="complaint">
+        <label for="complaint">Complaint</label><br>
+        <input type="radio" name="message type" value="H" id="Help">
+        <label for="Help">Help</label><br><br><br>
+        
+        <button type="submit" name="submit" value="Submit">Send Message</button>
+        <button style="color: red;" type="reset">Reset</button>
+        
+    </form>
+   
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+html{
+    background: url(img/backgroung.webp)  no-repeat center fixed ;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+div.gallery:hover {
+    border: 1px solid rgb(173, 17, 17);
+}
+  
+
+div.gallery img {
+    width: 100%;
+}
+
+.responsive {
+    padding: 6px;
+    width: 15%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color:aliceblue;
+}
+
+@keyframes moveRight {
+    0% {
+    transform: translateX(0%);
+    }
+    50% {
+    transform: translateX(-10%);
+    }
+    }
+    
+    @keyframes moveLeft {
+    50% {
+    transform: translateX(-10%);
+    }
+    100% {
+    transform: translateX(0%);
+    }
+    }
+    
+    .marquee {
+    animation: moveRight 5s linear infinite, moveLeft 5s linear 5s infinite;
+    }
+    
+header h1{
+    text-align: center;
+    font-size: xx-large; 
+    color: aliceblue;
+}
+
+
+
+.navbar {
+    width: 150px;
+    overflow: hidden;
+    background-color: rgb(40, 39, 45);
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(255, 234, 234);
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    background-color: inherit;
+    font-family: inherit;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(50, 113, 113);
+    padding: 16px;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+    
+    
+footer p{
+    color: aliceblue;
+    font-size: large;
+}
+
