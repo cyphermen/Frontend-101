@@ -1,4 +1,4 @@
 ## Sayfa görünümü:
 
 
-![sayfa görünümü](/assets/sayfa.png)
+![sayfa görünümü](sayfa.png)
