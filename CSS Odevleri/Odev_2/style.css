@@ -1,0 +1,29 @@
+
+body {
+    font-size: 14px;
+}
+
+/* ortalamak için */
+.tocenter {
+    text-align: -webkit-center;
+}
+
+.gray {
+    background-color: rgb(238, 238, 238);
+}
+
+/* sağdan ve soldan 80px lik boşluk bıraktım */
+.margin {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* renkli article'ların yan yana gelmesi için */
+.left {
+    float: left;
+}
+
+/* ilk 2 renkli article'ları hizalamak için */
+div {
+    padding: 10px;
+}
