@@ -1,3 +1,3 @@
 ## Sayfa görünümü:
 
-![sayfa görünümü](/assets/sayfa.png)
+<img src=/assets/sayfa.png alt="ScreenShot" width="80%">
