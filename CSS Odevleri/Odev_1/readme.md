@@ -1,7 +1,10 @@
-#Sayfa görünümü
+# Sayfa görünümleri
 
-##index:
-![index sayfası](img/index.png)
+## Ana Sayfa:
+![Ana Sayfa](img/Ana_Sayfa.png)
 
-##contact:
-![contact sayfası](img/contact.png)
+## Hakkımızda:
+![Hakkimizda](img/Hakkimizda.png)
+
+## Ürünlerimiz
+![Urunlerimiz](img/Urunlerimiz.png)
