@@ -1,0 +1,49 @@
+main {
+  background-color: #E9ECEF;
+}
+
+html {
+  background-color: #E9ECEF;
+}
+
+body {
+  font-family:  sans-serif;
+}
+
+
+header h1{
+    font-size: xx-large; 
+    color: red;
+}
+
+header nav a {
+  margin-left: 12px;
+  font-size: medium;
+}
+
+nav p{
+  float: left;
+}
+
+
+#purple-h1 {
+  color: blueviolet;
+  margin-left: 40%;
+  font-size: 65px;
+}
+
+.purple {
+  color: var(--bs-purple);
+}
+
+main h1 {
+  color: var(--bs-purple);
+}
+
+main h2 {
+  color: var(--bs-purple);
+}
+
+.colo {
+  color: var(--bs-darksalmon);
+}
